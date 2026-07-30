@@ -1,0 +1,33 @@
+# Environments
+.env
+.env.local
+.venv/
+venv/
+
+# Caches
+__pycache__/
+.pytest_cache/
+.cache/
+
+# Datasets and cache
+/data/
+
+# Model Checkpoints and Artifacts
+checkpoint/
+src/api/model.onnx
+src/api/model.onnx.data
+*.onnx
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# MLflow Tracking DB
+mlflow.db
+mlflow.db-journal
+mlruns/
+
+# IDE configurations
+.vscode/
+.idea/
+postman_collection.json

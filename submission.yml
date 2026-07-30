@@ -1,0 +1,6 @@
+commands:
+  setup: pip install -r requirements.txt
+  train: python scripts/train.py
+  evaluate: python scripts/evaluate.py
+  start: docker-compose up -d
+  test: pytest tests/
