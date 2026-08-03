@@ -1,6 +1,6 @@
 {
-  "macro_f1": 0.2348,
-  "zero_shot_f1": 0.2951,
-  "average_latency_ms": 130.37,
+  "macro_f1": 1.0,
+  "zero_shot_f1": 1.0,
+  "average_latency_ms": 73.52,
   "smoke_test": true
 }
